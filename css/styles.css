@@ -1,0 +1,109 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  background: radial-gradient(circle at center, #61d2e1, #50c8dbca);
+}
+
+header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(28, 168, 186, 0.3);
+}
+
+.entire-container {
+  padding: 20px 30px;
+  border: 2px solid rgba(28, 168, 186, 0.8);
+  border-radius: 25px;
+  box-shadow: 12px 8px 20px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+  margin: 60px auto;
+  background: white;
+}
+
+.search-field {
+  border: 1px solid rgba(28, 168, 186, 0.3);
+  background: rgb(224, 255, 255);
+  border-radius: 6px;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  width: 70%;
+}
+
+.search-button {
+  border: 1px solid rgba(28, 168, 186, 0.8);
+  color: rgb(0, 0, 0, 0.8);
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 5px;
+  padding: 15px 20px;
+  border-radius: 6px;
+  background: rgba(28, 168, 186, 0.6);
+  transition: all 250ms ease-in-out;
+}
+
+.search-button:hover {
+  cursor: pointer;
+}
+
+.current-weather-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 5px;
+}
+
+.current-city {
+  font-size: 45px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.current-city-details {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.current-city-details strong {
+  color: rgb(28, 168, 186);
+}
+
+.current-temp {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.current-temp-emoji {
+  margin-top: 10px;
+  margin-right: 5px;
+  font-size: 25px;
+}
+.current-temp-value {
+  font-size: 50px;
+  font-weight: 400;
+}
+.current-temp-unit {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+footer {
+  border-top: 1px solid rgba(28, 168, 186, 0.3);
+  text-align: center;
+  font-size: 11px;
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  transition: all 200ms ease;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: rgba(28, 168, 186, 0.8);
+}
